@@ -1,0 +1,2 @@
+g++ -I lib/json/include/ -I lib/cpp-httplib/ -c light_monitor.cpp -o light_monitor.o
+g++ -I lib/json/include/ -I lib/cpp-httplib/ main.cpp light_monitor.o -o main
